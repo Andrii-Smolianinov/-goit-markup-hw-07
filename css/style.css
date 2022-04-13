@@ -301,15 +301,21 @@ h1, h2, h3, p, ul, li {
   opacity: 0;
   pointer-events: none;
 }
+
+
 /* не працює основний колір свн іконки */
-/* .button-close {
-  position: fixed;
+.button-close {
+  
+  position: absolute;
+
   top: 8px;
   right: 8px;
 
   width: 30px;
   height: 30px;
+  padding: 5px;
 
+  fill: black;
   background-color: #fff;
   
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -317,13 +323,20 @@ h1, h2, h3, p, ul, li {
   cursor: pointer;
 }
 .img-close-btn {
+  
   height: 18px;
   width: 18px;
-  fill: black;
-} */
+}
+.button-close:hover,
+.button-close:focus {
+  fill: #2196f3;
+}
 
 
-.button-close {
+
+
+/* працюючий варіант через бг імедж */
+/* .button-close {
   position: fixed;
   top: 8px;
   right: 8px;
@@ -337,10 +350,16 @@ h1, h2, h3, p, ul, li {
   width: 30px;
   height: 30px;
 }
+.img-close-btn {
+  height: 18px;
+  width: 18px;
+  fill: black;
+}
+
 .button-close:hover,
 .button-close:focus {
   background-image: url(../images/vector.svg);
-}
+} */
 
 .modal-tittle {
   font-style: normal;
