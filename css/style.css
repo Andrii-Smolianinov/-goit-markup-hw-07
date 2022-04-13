@@ -321,9 +321,9 @@ h1, h2, h3, p, ul, li {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+  transition: fill var(--transition);
 }
 .img-close-btn {
-  
   height: 18px;
   width: 18px;
 }
