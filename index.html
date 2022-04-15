@@ -13,35 +13,49 @@
 
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="nav"><a class="logohead" href="/">
-                <span class="webhead">Web</span><span class="studiohead">Studio</span></a>
-                <ul class="main-navigation">
-                    <li class="nav-list"><a class="nav-item current" href="./index.html">Студия</a></li>
-                    <li class="nav-list"><a class="nav-item" href="./portfolio.html">Портфолио</a></li>
-                    <li class="nav-list"><a class="nav-item" href="">Контакты</a></li>
-                </ul>
-            </nav>
-            <ul class="main-contacts">
-                <li class="contacts-list">
-                    <a class="contacts-item" href="mailto:info@devstudio.com">
-                        <svg class="mail-icon"><use href="./images/icons.svg#icon-mail"></use></svg>info@devstudio.com</a>
+<header class="header">
+    <div class="container">
+        <nav class="main-navigation">
+            <a class="logo" href="/">
+                <span class="logo__text">Web</span><span class="logo__label">Studio</span>
+            </a>
+            <ul class="main-navigation__list">
+                <li class="main-navigation__item">
+                    <a class="main-navigation__link main-navigation__link--current" href="./index.html">Студия</a>
                 </li>
-                <li class="contacts-list"><a class="contacts-item" href="tel:+380961111111">
-                    <svg class="phone-icon"><use href="./images/icons.svg#icon-phone"></use></svg>+380961111111</a>
+                <li class="main-navigation__item">
+                    <a class="main-navigation__link"
+                        href="./portfolio.html">Портфолио</a>
                 </li>
+                <li class="main-navigation__item"><a class="main-navigation__link" href="">Контакты</a></li>
             </ul>
-        </div>
-    </header>
+        </nav>
+        <ul class="main-contacts">
+            <li class="main-contacts__item">
+                <a class="main-contacts__link" href="mailto:info@devstudio.com">
+                    <svg class="mail-icon">
+                        <use href="./images/icons.svg#icon-mail"></use>
+                    </svg>info@devstudio.com
+                </a>
+            </li>
+            <li class="main-contacts__item">
+                <a class="main-contacts__link" href="tel:+380961111111">
+                    <svg class="phone-icon">
+                        <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>+380961111111
+                </a>
+            </li>
+        </ul>
+    </div>
+</header>
     <main>
-        <section class="banner overlay">
-            <div class="container bnnr">
-                <h1 class="banner-tittle">Эффективные решения для вашего бизнеса</h1>
-                <button class="banner-button" type="button" data-open-modal>Заказать услугу</button>
+        <section class="banner banner__overlay">
+            <div class="container banner__container">
+                <h1 class="banner__tittle">Эффективные решения для вашего бизнеса</h1>
+                <button class="banner__button" type="button" data-open-modal>Заказать услугу</button>
                 <div class="backdrop is-hidden" data-backdrop>
                     <div class="modal">
-                        <p class="modal-tittle">Оставьте свои данные, мы вам перезвоним</p>
+                        <p class="modal__tittle">Оставьте свои данные, мы вам перезвоним</p>
                         <button class="button-close" type="button" data-close-modal>
                             <svg class="img-close-btn">
                                 <use href="./images/icons.svg#close"></use>
@@ -325,7 +339,7 @@
         <section class="clients section">
             <div class="container">
                 <h2 class="clients_tittle">Постоянные клиенты</h2>
-                <ul class="clients_list">
+                <ul class="clients">
                     <li class="clients_item">
                         <a href="#" class="clients_link">
                             <svg class="clients_icon">

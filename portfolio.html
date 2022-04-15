@@ -14,30 +14,29 @@
 <body>
   <header class="header">
     <div class="container">
-      <nav class="nav">
-        <a class="logohead" href="/">
-          <span class="webhead">Web</span>
-          <span class="studiohead">Studio</span>
+      <nav class="main-navigation">
+        <a class="logo" href="/">
+          <span class="logo__text">Web</span><span class="logo__label">Studio</span>
         </a>
-        <ul class="main-navigation">
-          <li class="nav-list">
-            <a class="nav-item" href="./index.html">Студия</a>
+        <ul class="main-navigation__list">
+          <li class="main-navigation__item">
+            <a class="main-navigation__link" href="./index.html">Студия</a>
           </li>
-          <li class="nav-list">
-            <a class="nav-item current" href="./portfolio.html">Портфолио</a></li>
-          <li class="nav-list"><a class="nav-item" href="">Контакты</a></li>
+          <li class="main-navigation__item">
+            <a class="main-navigation__link main-navigation__link--current" href="./portfolio.html">Портфолио</a></li>
+          <li class="main-navigation__item"><a class="main-navigation__link" href="">Контакты</a></li>
         </ul>
       </nav>
       <ul class="main-contacts">
-        <li class="contacts-list">
-          <a class="contacts-item" href="mailto:info@devstudio.com">
+        <li class="main-contacts__item">
+          <a class="main-contacts__link" href="mailto:info@devstudio.com">
             <svg class="mail-icon">
               <use href="./images/icons.svg#icon-mail"></use>
             </svg>info@devstudio.com
           </a>
         </li>
-        <li class="contacts-list">
-          <a class="contacts-item" href="tel:+380961111111">
+        <li class="main-contacts__item">
+          <a class="main-contacts__link" href="tel:+380961111111">
             <svg class="phone-icon">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>+380961111111
@@ -50,138 +49,138 @@
     <section class="section main-content">
       <div class="container">
         <h1 class="tittle-port">фильтр страницы портфолио</h1>
-        <ul class="btn-list">
-          <li class="btn-item" ><button class="btonu" type="button">Все</button></li>
-          <li class="btn-item" ><button class="btonu" type="button">Веб-сайты</button></li>
-          <li class="btn-item" ><button class="btonu" type="button">Приложения</button></li>
-          <li class="btn-item" ><button class="btonu" type="button">Дизайн</button></li>
-          <li class="btn-item" ><button class="btonu" type="button">Маркетинг</button></li>
+        <ul class="menu">
+          <li class="menu__item" ><button class="menu__button" type="button">Все</button></li>
+          <li class="menu__item" ><button class="menu__button" type="button">Веб-сайты</button></li>
+          <li class="menu__item" ><button class="menu__button" type="button">Приложения</button></li>
+          <li class="menu__item" ><button class="menu__button" type="button">Дизайн</button></li>
+          <li class="menu__item" ><button class="menu__button" type="button">Маркетинг</button></li>
         </ul>
         <h2 hidden>контент</h2>
-        <ul class="content-list">
-          <li class="content-items">
-            <a class="content-links" href="">
-              <div class="content-thumb">
-                <img class="content-img" src="./images/list-a-min.jpg" alt="фото ноутбука" width="370" height="294">
-                <div class="content-txt-thumb">
-                  <p class="content-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+        <ul class="content">
+          <li class="content__item">
+            <a class="content__link" href="">
+              <div class="content__thumb">
+                <img class="content__image" src="./images/list-a-min.jpg" alt="фото ноутбука" width="370" height="294">
+                <div class="content__popup">
+                  <p class="content__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
               </div>
               <div class="content-border">
-                <h3 class="content-tittle">Технокряк</h3>
+                <h3 class="content__name">Технокряк</h3>
                 <p class="content-text">Веб-сайт</p>
               </div>
             </a>
           </li>
-          <li class="content-items">
-            <a class="content-links" href="">
-              <div class="content-thumb">
-                <img class="content-img" src="./images/list-b-min.jpg" alt="фото постера" width="370" height="294">
-                <div class="content-txt-thumb">
-                  <p class="content-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
+          <li class="content__item">
+            <a class="content__link" href="">
+              <div class="content__thumb">
+                <img class="content__image" src="./images/list-b-min.jpg" alt="фото постера" width="370" height="294">
+                <div class="content__popup">
+                  <p class="content__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
                   позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
               </div>
               <div class="content-border">
-                <h3 class="content-tittle">Постер New Orlean vs Golden Star</h3>
+                <h3 class="content__name">Постер New Orlean vs Golden Star</h3>
                 <p class="content-text">Дизайн</p>
               </div>
             </a>
           </li>
-          <li class="content-items">
-            <a class="content-links" href="">
-              <div class="content-thumb">
-                <img class="content-img" src="./images/list-c-min.jpg" alt="фото ресторана" width="370" height="294">
-                <div class="content-txt-thumb">
-                  <p class="content-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+          <li class="content__item">
+            <a class="content__link" href="">
+              <div class="content__thumb">
+                <img class="content__image" src="./images/list-c-min.jpg" alt="фото ресторана" width="370" height="294">
+                <div class="content__popup">
+                  <p class="content__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
               </div>
               <div class="content-border">
-                <h3 class="content-tittle">Ресторан Seafood</h3>
+                <h3 class="content__name">Ресторан Seafood</h3>
                 <p class="content-text">Приложение</p>
               </div>
             </a>
           </li>
-          <li class="content-items">
-            <a class="content-links" href="">
-              <div class="content-thumb">
-                <img class="content-img" src="./images/list-d-min.jpg" alt="фото наушников" width="370" height="294">
-                <div class="content-txt-thumb">
-                  <p class="content-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+          <li class="content__item">
+            <a class="content__link" href="">
+              <div class="content__thumb">
+                <img class="content__image" src="./images/list-d-min.jpg" alt="фото наушников" width="370" height="294">
+                <div class="content__popup">
+                  <p class="content__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
               </div>
               <div class="content-border">
-                <h3 class="content-tittle">Проект Prime</h3>
+                <h3 class="content__name">Проект Prime</h3>
                 <p class="content-text">Маркетинг</p>
               </div>
             </a>
           </li>
-          <li class="content-items">
-            <a class="content-links" href="">
-              <div class="content-thumb">
-                <img class="content-img" src="./images/list-e-min.jpg" alt="фото коробок" width="370" height="294">
-                <div class="content-txt-thumb">
-                  <p class="content-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+          <li class="content__item">
+            <a class="content__link" href="">
+              <div class="content__thumb">
+                <img class="content__image" src="./images/list-e-min.jpg" alt="фото коробок" width="370" height="294">
+                <div class="content__popup">
+                  <p class="content__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
               </div>
               <div class="content-border">
-                <h3 class="content-tittle">Проект Boxes</h3>
+                <h3 class="content__name">Проект Boxes</h3>
                 <p class="content-text">Приложение</p>
               </div>
             </a>
           </li>
-          <li class="content-items">
-            <a class="content-links" href="">
-              <div class="content-thumb">
-                <img class="content-img" src="./images/list-f-min.jpg" alt="фото монитора" width="370" height="294">
-                <div class="content-txt-thumb">
-                  <p class="content-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+          <li class="content__item">
+            <a class="content__link" href="">
+              <div class="content__thumb">
+                <img class="content__image" src="./images/list-f-min.jpg" alt="фото монитора" width="370" height="294">
+                <div class="content__popup">
+                  <p class="content__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
               </div>
               <div class="content-border">
-                <h3 class="content-tittle">Inspiration has no Borders</h3>
+                <h3 class="content__name">Inspiration has no Borders</h3>
                 <p class="content-text">Веб-сайт</p>
               </div>
             </a>
           </li>
-          <li class="content-items">
-            <a class="content-links" href="">
-              <div class="content-thumb">
-                <img class="content-img" src="./images/list-g-min.jpg" alt="фото книги" width="370" height="294">
-                <div class="content-txt-thumb">
-                  <p class="content-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+          <li class="content__item">
+            <a class="content__link" href="">
+              <div class="content__thumb">
+                <img class="content__image" src="./images/list-g-min.jpg" alt="фото книги" width="370" height="294">
+                <div class="content__popup">
+                  <p class="content__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
               </div>
               <div class="content-border">
-                <h3 class="content-tittle">Издание Limited Edition</h3>
+                <h3 class="content__name">Издание Limited Edition</h3>
                 <p class="content-text">Дизайн</p>
               </div>
             </a>
           </li>
-          <li class="content-items">
-            <a class="content-links" href="">
-              <div class="content-thumb">
-                <img class="content-img" src="./images/list-h-min.jpg" alt="фото проекта" width="370" height="294">
-                <div class="content-txt-thumb">
-                  <p class="content-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+          <li class="content__item">
+            <a class="content__link" href="">
+              <div class="content__thumb">
+                <img class="content__image" src="./images/list-h-min.jpg" alt="фото проекта" width="370" height="294">
+                <div class="content__popup">
+                  <p class="content__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
               </div>
               <div class="content-border">
-                <h3 class="content-tittle">Проект LAB</h3>
+                <h3 class="content__name">Проект LAB</h3>
                 <p class="content-text">Маркетинг</p>
               </div>
             </a>
           </li>
-          <li class="content-items">
-            <a class="content-links" href="">
-              <div class="content-thumb">
-                <img class="content-img" src="./images/list-i-min.jpg" alt="фото работы за ноутбуком" width="370" height="294">
-                <div class="content-txt-thumb">
-                  <p class="content-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+          <li class="content__item">
+            <a class="content__link" href="">
+              <div class="content__thumb">
+                <img class="content__image" src="./images/list-i-min.jpg" alt="фото работы за ноутбуком" width="370" height="294">
+                <div class="content__popup">
+                  <p class="content__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
               </div>
               <div class="content-border">
-                <h3 class="content-tittle">Growing Business</h3>
+                <h3 class="content__name">Growing Business</h3>
                 <p class="content-text">Приложение</p>
               </div>
             </a>
