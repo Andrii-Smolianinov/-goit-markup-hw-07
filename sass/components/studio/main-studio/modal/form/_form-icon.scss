@@ -1,0 +1,26 @@
+.icon {
+    display: inline-block;
+    border: 2px solid #212121;
+    width: 16px;
+    height: 15px;
+    border-radius: 4px;
+    margin-right: 7px;
+}
+
+.form__icon {
+    position: absolute;
+    top: 43px;
+    left: 14px;
+
+    display: inline-block;
+}
+
+.form__icons {
+    fill: #212121;
+}
+
+.form__icon svg:hover,
+.form__icon svg:focus {
+    fill: #2196F3;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+@import "./form/form-field";
+@import "./backdrop";
+@import "./modal-button-close";
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,
+            -50%);
+    transition: 250ms ease-in;
+    opacity: 1;
+    height: 581px;
+    width: 528px;
+    padding-top: 40px;
+
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.modal__tittle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}

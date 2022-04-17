@@ -1,0 +1,52 @@
+.features__label {
+    visibility: hidden;
+}
+
+.features__title {
+    font-weight: var(--secondary-font-weight);
+    font-size: var(--main-font-sz);
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.features__text {
+    font-weight: var(--primary-font-weight);
+    line-height: var(--primary-line-hght);
+    color: var(--secondary-txt-clr);
+    margin-bottom: 0px;
+}
+
+.features__item:not(:last-child),
+.work__item:not(:last-child),
+.team__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.features__background {
+    height: 120px;
+    width: 270px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F4FA;
+}
+
+.features__icon {
+    height: 70px;
+    width: 70px;
+}
+
+.features__text {
+    max-width: 270px;
+}
+
+.features__section {
+    padding-bottom: 0;
+}
+
+.features,
+.work,
+.team {
+    justify-content: space-around;
+}

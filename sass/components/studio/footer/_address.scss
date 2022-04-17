@@ -1,0 +1,31 @@
+.address__link--inverse {
+    font-weight: var(--primary-font-weight);
+    font-size: var(--main-font-sz);
+    line-height: var(--primary-line-hght);
+    color: var(--main-address__link);
+    font-style: normal;
+    text-decoration: var(--main-text-decor);
+
+    margin-bottom: 9px;
+    outline: none;
+}
+
+.address__list {
+    font-weight: var(--primary-font-weight);
+    font-size: var(--main-font-sz);
+    line-height: var(--primary-line-hght);
+    color: var(--color-rdba);
+}
+
+.address__list:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address__link {
+    font-style: normal;
+    font-weight: var(--primary-font-weight);
+    line-height: var(--primary-line-hght);
+    color: var(--color-rdba);
+    text-decoration: var(--main-text-decor);
+    outline: none;
+}

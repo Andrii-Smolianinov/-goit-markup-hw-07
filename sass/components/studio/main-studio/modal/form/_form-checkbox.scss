@@ -1,0 +1,25 @@
+.form__checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.form__checkbox:checked+.icon {
+    background-color: #2196F3;
+    border-color: #2196f3;
+    background-image: url(../images/check2.svg);
+    background-size: contain;
+    background-origin: border-box;
+}
+
+.form__check-link {
+    text-decoration: none;
+    color: #2196f3;
+    text-decoration: underline;
+    margin-left: 4px;
+}

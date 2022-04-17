@@ -1,0 +1,24 @@
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: var(--secondary-font-weight);
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    outline: none;
+    color: var(--primary-txt-clr);
+}
+
+.logo__footer {
+    display: inline-block;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.logo__label {
+    color: var(--secondary-address__link);
+}
+
+.logo__label--inverse {
+    color: var(--main-address__link);
+}
