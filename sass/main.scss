@@ -4,8 +4,6 @@
 // base
 @import "./base/base";
 
-// utils
-@import "./utils/visually-hidden";
 
 // components
 @import "./components/studio/container";
@@ -17,4 +15,5 @@
 
 @import "./components/portfolio/portfolio";
 
-
+// utils
+@import "./utils/visually-hidden";
