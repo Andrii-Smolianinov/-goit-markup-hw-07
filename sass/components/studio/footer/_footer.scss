@@ -1,20 +1,22 @@
+@import "./address";
+@import "./footer-social";
+@import "./subscribe-footer";
+
 .footer {
     background-color: var(--secondary-address__link);
     padding-bottom: 60px;
     padding-top: 60px;
-
     user-select: none;
+
+    &__container {
+        display: flex;
+        align-items: baseline;
+    }
+
+    &__flex {
+        &:nth-child(1) {
+            margin-right: 70px;
+        }
+    }
 }
 
-.footer__container {
-    display: flex;
-    align-items: baseline;
-}
-
-.footer__flex:nth-child(1) {
-    margin-right: 70px;
-}
-
-@import "./address";
-@import "./footer-social";
-@import "./subscribe-footer";

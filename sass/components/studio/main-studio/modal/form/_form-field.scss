@@ -6,12 +6,15 @@
 @import "./form-icon";
 
 
-.form__field {
-  position: relative;
+.form {
 
-  display: flex;
-  flex-direction: column;
+  &__field {
+    position: relative;
 
-  margin-left: 40px;
-  margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }

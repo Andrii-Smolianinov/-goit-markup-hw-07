@@ -16,3 +16,12 @@ body {
 .team {
     display: flex;
 }
+
+.work__tittle,
+.team-maintittle,
+.clients_tittle {
+    font-size: var(--primary-font-sz);
+    line-height: var(--secondary-line-hght);
+    font-weight: var(--secondary-font-weight);
+    text-align: center;
+}
