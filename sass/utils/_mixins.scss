@@ -1,0 +1,13 @@
+
+
+@mixin centeredFlex() {
+    display: $type;
+    align-items: $type;
+}
+
+
+@mixin lineSize() {
+    font-size: $size;
+    line-height: $height;
+    letter-spacing: $spacing;
+}

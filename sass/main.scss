@@ -5,12 +5,12 @@
 @import "./base/base";
 
 // components
-@import "./components/studio/container";
-@import "./components/studio/section";
+@import "./components/common/container";
+@import "./components/common/section";
 
-@import "./components/studio/header/header";
+@import "./components/common/header/header";
 @import "./components/studio/main-studio/main";
-@import "./components/studio/footer/footer";
+@import "./components/common/footer/footer";
 
 @import "./components/portfolio/portfolio";
 

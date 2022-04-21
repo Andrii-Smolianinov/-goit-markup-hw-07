@@ -11,7 +11,7 @@
         clip: rect(0 0 0 0);
         overflow: hidden;
 
-        &:checked+.icon {
+        &:checked+.form__checkbox-icon {
             background-color: #2196F3;
             border-color: #2196f3;
             background-image: url(../images/check2.svg);
@@ -25,5 +25,14 @@
         color: #2196f3;
         text-decoration: underline;
         margin-left: 4px;
+    }
+
+    &__checkbox-icon {
+        display: inline-block;
+        border: 2px solid #212121;
+        width: 16px;
+        height: 15px;
+        border-radius: 4px;
+        margin-right: 7px;
     }
 }

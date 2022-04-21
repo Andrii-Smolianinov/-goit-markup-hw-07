@@ -11,14 +11,28 @@
     z-index: 3;
     transition: opacity var(--transition);
     opacity: 1;
+
+
+    &.is-hidden {
+        opacity: 0;
+        pointer-events: none;
+
+
+        &.modal {
+            transform: translate(-50%, -50%);
+            transition: 250ms ease-in;
+        }
+    }
+    
+    
 }
 
-.backdrop.is-hidden .modal {
-    transform: translate(-50%, -50%);
-    transition: 250ms ease-in;
-}
+// .backdrop.is-hidden .modal {
+//     transform: translate(-50%, -50%);
+//     transition: 250ms ease-in;
+// }
 
-.backdrop.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-}
+// .backdrop.is-hidden {
+//     opacity: 0;
+//     pointer-events: none;
+// }
